@@ -1,0 +1,78 @@
+<!--pages/furniture-detect/detect.wxml-->
+<view class="container">
+  <view class="page-header">
+    <text class="page-title">家具识别</text>
+    <text class="page-desc">拍摄桌椅照片，AI智能分析</text>
+  </view>
+
+  <!-- 拍照区域 -->
+  <view class="camera-section">
+    <view class="camera-placeholder">
+      <text class="placeholder-icon">📷</text>
+      <text class="placeholder-text">点击拍摄或选择照片</text>
+    </view>
+  </view>
+
+  <!-- 功能按钮 -->
+  <view class="action-buttons">
+    <button class="btn btn-primary" bindtap="takePhoto">拍照识别</button>
+    <button class="btn btn-secondary" bindtap="chooseImage">从相册选择</button>
+  </view>
+
+  <!-- 识别结果区域（初始隐藏） -->
+  <view class="result-section" wx:if="{{hasResult}}">
+    <text class="result-title">识别结果</text>
+    <view class="result-item">
+      <text class="result-label">家具类型：</text>
+      <text class="result-value">{{detectionResult.furniture_type}}</text>
+    </view>
+    <view class="result-item" wx:if="{{detectionResult.materials && detectionResult.materials.length}}">
+      <text class="result-label">材料识别：</text>
+    </view>
+    <view class="material-card" wx:for="{{detectionResult.materials}}" wx:key="index">
+      <text class="material-title">材料 {{index + 1}}</text>
+      <view class="material-row">
+        <text class="material-label">类型：</text>
+        <text class="material-value">{{item.material_type}}</text>
+      </view>
+      <view class="material-row">
+        <text class="material-label">子类：</text>
+        <text class="material-value">{{item.sub_type}}</text>
+      </view>
+      <view class="material-row">
+        <text class="material-label">置信度：</text>
+        <text class="material-value">{{item.confidence}}%</text>
+      </view>
+    </view>
+    <view class="risk-section" wx:if="{{detectionResult.risk_assessment}}">
+      <view class="result-item">
+        <text class="result-label">风险等级：</text>
+        <text class="result-value">{{detectionResult.risk_assessment.risk_level}}</text>
+      </view>
+      <view class="risk-block" wx:if="{{detectionResult.risk_assessment.sensitive_groups && detectionResult.risk_assessment.sensitive_groups.length}}">
+        <text class="risk-title">敏感人群</text>
+        <view class="risk-list">
+          <text class="risk-item" wx:for="{{detectionResult.risk_assessment.sensitive_groups}}" wx:key="index">· {{item}}</text>
+        </view>
+      </view>
+      <view class="risk-block" wx:if="{{detectionResult.risk_assessment.harmful_substances && detectionResult.risk_assessment.harmful_substances.length}}">
+        <text class="risk-title">可能有害物质</text>
+        <view class="risk-list">
+          <text class="risk-item" wx:for="{{detectionResult.risk_assessment.harmful_substances}}" wx:key="index">· {{item}}</text>
+        </view>
+      </view>
+      <view class="risk-block" wx:if="{{detectionResult.risk_assessment.health_impacts && detectionResult.risk_assessment.health_impacts.length}}">
+        <text class="risk-title">健康影响</text>
+        <view class="risk-list">
+          <text class="risk-item" wx:for="{{detectionResult.risk_assessment.health_impacts}}" wx:key="index">· {{item}}</text>
+        </view>
+      </view>
+      <view class="risk-block" wx:if="{{detectionResult.risk_assessment.recommendations && detectionResult.risk_assessment.recommendations.length}}">
+        <text class="risk-title">建议</text>
+        <view class="risk-list">
+          <text class="risk-item" wx:for="{{detectionResult.risk_assessment.recommendations}}" wx:key="index">· {{item}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

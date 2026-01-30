@@ -1,0 +1,84 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+  <!-- 顶部装饰波浪 -->
+  <view class="wave-decoration">
+    <image class="wave-bg" src="/images/wave-top.png" mode="widthFix"></image>
+  </view>
+
+  <!-- 欢迎区域 -->
+  <view class="welcome-section">
+    <view class="logo-area">
+      <image class="logo-icon" src="/images/logo-chair.png" mode="aspectFit"></image>
+    </view>
+    <text class="welcome-title">家具安全健康小助手</text>
+    <text class="welcome-subtitle-line1">坐姿不对，椅子报废？</text>
+    <text class="welcome-subtitle-line2">这里有家具界的「照妖镜」✨</text>
+    <text class="welcome-tag">家具避雷指南</text>
+  </view>
+
+  <!-- 功能卡片区域 -->
+  <view class="features-section">
+    <text class="section-title">核心功能</text>
+
+    <!-- 家具检测卡片 -->
+    <view class="feature-card" bindtap="goToFurnitureDetect">
+      <view class="card-icon-wrapper card-icon-blue">
+        <image class="card-icon" src="/images/icon-furniture.png" mode="aspectFit"></image>
+      </view>
+      <view class="card-content">
+        <text class="card-title">家具识别</text>
+        <text class="card-desc">AI智能识别家具材质，安全风险评估</text>
+      </view>
+      <view class="card-arrow">›</view>
+    </view>
+
+    <!-- 坐姿分析卡片 -->
+    <view class="feature-card" bindtap="goToPostureAnalyze">
+      <view class="card-icon-wrapper card-icon-green">
+        <image class="card-icon" src="/images/icon-posture.png" mode="aspectFit"></image>
+      </view>
+      <view class="card-content">
+        <text class="card-title">坐姿分析</text>
+        <text class="card-desc">实时检测坐姿，提供健康建议</text>
+      </view>
+      <view class="card-arrow">›</view>
+    </view>
+  </view>
+
+  <!-- 使用说明区域 -->
+  <view class="guide-section">
+    <view class="guide-header">
+      <image class="guide-icon" src="/images/icon-guide.png" mode="aspectFit"></image>
+      <text class="guide-title">使用指南</text>
+    </view>
+    <view class="guide-steps">
+      <view class="guide-step">
+        <view class="step-number">1</view>
+        <text class="step-text">拍摄桌椅照片，系统自动识别</text>
+      </view>
+      <view class="guide-step">
+        <view class="step-number">2</view>
+        <text class="step-text">进行坐姿拍摄，获取分析报告</text>
+      </view>
+      <view class="guide-step">
+        <view class="step-number">3</view>
+        <text class="step-text">查看健康建议，改善坐姿习惯</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 底部区域 -->
+  <view class="footer-section">
+    <view class="footer-links">
+      <text class="link-text" bindtap="showUserGuide">使用说明</text>
+      <text class="link-divider">|</text>
+      <text class="link-text" bindtap="showDisclaimer">免责声明</text>
+    </view>
+    <text class="copyright-text">© 2026 家具安全健康小助手</text>
+  </view>
+
+  <!-- 底部装饰元素 -->
+  <view class="bottom-decoration">
+    <image class="decoration-leaf" src="/images/leaf-decoration.png" mode="aspectFit"></image>
+  </view>
+</view>

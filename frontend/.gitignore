@@ -1,0 +1,36 @@
+# WeChat Mini Program
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Private config
+project.private.config.json
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+.cache/

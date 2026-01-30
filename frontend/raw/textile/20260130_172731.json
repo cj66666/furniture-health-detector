@@ -1,0 +1,412 @@
+[
+  {
+    "material_id": "dc1fbf09720aaca5",
+    "category": "衣料纺织品",
+    "data": {
+      "fabric_type": "棉",
+      "composition": "100% 天然纤维",
+      "chemical_treatments": [
+        {
+          "name": "漂白剂",
+          "hazard": "低"
+        },
+        {
+          "name": "染料",
+          "hazard": "中"
+        }
+      ],
+      "health_risks": [
+        {
+          "type": "染料残留",
+          "severity": "低",
+          "description": "劣质染料可能含偶氮染料"
+        },
+        {
+          "type": "农药残留",
+          "severity": "低",
+          "description": "非有机棉可能有农药残留"
+        }
+      ],
+      "health_benefits": [
+        "透气性好",
+        "吸湿性强",
+        "亲肤柔软"
+      ],
+      "care_instructions": {
+        "washing": "可机洗,40度以下",
+        "drying": "可机烘,低温",
+        "ironing": "高温熨烫"
+      },
+      "certifications": [
+        "OEKO-TEX",
+        "GOTS",
+        "OCS"
+      ]
+    },
+    "source": "OEKO-TEX Standard 100",
+    "last_updated": "2026-01-30T17:27:21.113604",
+    "version": "1.0"
+  },
+  {
+    "material_id": "dc1fbf09720aaca5",
+    "category": "衣料纺织品",
+    "data": {
+      "fabric_type": "麻",
+      "composition": "100% 天然纤维(亚麻/苎麻)",
+      "chemical_treatments": [
+        {
+          "name": "漂白剂",
+          "hazard": "低"
+        },
+        {
+          "name": "柔软剂",
+          "hazard": "低"
+        }
+      ],
+      "health_risks": [
+        {
+          "type": "粗糙质感",
+          "severity": "低",
+          "description": "未处理麻布可能对敏感肌肤有刺激"
+        }
+      ],
+      "health_benefits": [
+        "天然抗菌",
+        "极佳透气性",
+        "吸湿快干"
+      ],
+      "care_instructions": {
+        "washing": "可机洗,冷水",
+        "drying": "自然晾干",
+        "ironing": "高温熨烫"
+      },
+      "certifications": [
+        "OEKO-TEX",
+        "European Flax"
+      ]
+    },
+    "source": "OEKO-TEX Standard 100",
+    "last_updated": "2026-01-30T17:27:21.113604",
+    "version": "1.0"
+  },
+  {
+    "material_id": "dc1fbf09720aaca5",
+    "category": "衣料纺织品",
+    "data": {
+      "fabric_type": "丝",
+      "composition": "100% 天然蛋白质纤维",
+      "chemical_treatments": [
+        {
+          "name": "脱胶剂",
+          "hazard": "低"
+        },
+        {
+          "name": "染料",
+          "hazard": "中"
+        }
+      ],
+      "health_risks": [
+        {
+          "type": "蛋白质过敏",
+          "severity": "低",
+          "description": "极少数人对蚕丝蛋白过敏"
+        },
+        {
+          "type": "染料残留",
+          "severity": "中",
+          "description": "深色真丝可能有染料残留"
+        }
+      ],
+      "health_benefits": [
+        "亲肤柔滑",
+        "保湿美肤",
+        "减少静电"
+      ],
+      "care_instructions": {
+        "washing": "手洗,冷水,专用洗涤剂",
+        "drying": "阴干,避免阳光直射",
+        "ironing": "低温熨烫,反面"
+      },
+      "certifications": [
+        "OEKO-TEX",
+        "GS Mark"
+      ]
+    },
+    "source": "OEKO-TEX Standard 100",
+    "last_updated": "2026-01-30T17:27:21.113604",
+    "version": "1.0"
+  },
+  {
+    "material_id": "dc1fbf09720aaca5",
+    "category": "衣料纺织品",
+    "data": {
+      "fabric_type": "羊毛",
+      "composition": "100% 动物纤维",
+      "chemical_treatments": [
+        {
+          "name": "防缩剂",
+          "hazard": "中"
+        },
+        {
+          "name": "防虫剂",
+          "hazard": "中"
+        },
+        {
+          "name": "氯化处理",
+          "hazard": "高"
+        }
+      ],
+      "health_risks": [
+        {
+          "type": "氯化处理",
+          "severity": "高",
+          "description": "劣质羊毛可能经氯化处理,残留有毒物质"
+        },
+        {
+          "type": "防虫剂",
+          "severity": "中",
+          "description": "传统防虫剂可能含有机磷农药"
+        },
+        {
+          "type": "过敏",
+          "severity": "中",
+          "description": "羊毛过敏者慎用"
+        }
+      ],
+      "health_benefits": [
+        "保暖性极佳",
+        "吸湿排汗",
+        "天然阻燃"
+      ],
+      "care_instructions": {
+        "washing": "手洗或干洗,冷水",
+        "drying": "平铺晾干",
+        "ironing": "低温熨烫,隔布"
+      },
+      "certifications": [
+        "Woolmark",
+        "OEKO-TEX",
+        "ZQ Merino"
+      ]
+    },
+    "source": "OEKO-TEX Standard 100",
+    "last_updated": "2026-01-30T17:27:21.113604",
+    "version": "1.0"
+  },
+  {
+    "material_id": "dc1fbf09720aaca5",
+    "category": "衣料纺织品",
+    "data": {
+      "fabric_type": "涤纶",
+      "composition": "100% 聚酯纤维(化纤)",
+      "chemical_treatments": [
+        {
+          "name": "阻燃剂",
+          "hazard": "高"
+        },
+        {
+          "name": "抗静电剂",
+          "hazard": "中"
+        },
+        {
+          "name": "染料",
+          "hazard": "中"
+        }
+      ],
+      "health_risks": [
+        {
+          "type": "阻燃剂",
+          "severity": "高",
+          "description": "部分涤纶添加溴化阻燃剂,可能影响内分泌"
+        },
+        {
+          "type": "塑化剂",
+          "severity": "中",
+          "description": "劣质涤纶可能含塑化剂"
+        },
+        {
+          "type": "不透气",
+          "severity": "低",
+          "description": "纯涤纶透气性差,易闷热"
+        }
+      ],
+      "health_benefits": [
+        "耐用抗皱",
+        "快干",
+        "价格便宜"
+      ],
+      "care_instructions": {
+        "washing": "可机洗,温水",
+        "drying": "可机烘,低温",
+        "ironing": "低温熨烫"
+      },
+      "certifications": [
+        "OEKO-TEX",
+        "GRS(再生涤纶)"
+      ]
+    },
+    "source": "OEKO-TEX Standard 100",
+    "last_updated": "2026-01-30T17:27:21.113604",
+    "version": "1.0"
+  },
+  {
+    "material_id": "dc1fbf09720aaca5",
+    "category": "衣料纺织品",
+    "data": {
+      "fabric_type": "尼龙",
+      "composition": "100% 聚酰胺纤维(化纤)",
+      "chemical_treatments": [
+        {
+          "name": "抗菌剂",
+          "hazard": "中"
+        },
+        {
+          "name": "防水剂",
+          "hazard": "高"
+        },
+        {
+          "name": "染料",
+          "hazard": "中"
+        }
+      ],
+      "health_risks": [
+        {
+          "type": "PFAS永久化学品",
+          "severity": "高",
+          "description": "防水尼龙可能含全氟化合物(PFAS)"
+        },
+        {
+          "type": "抗菌剂",
+          "severity": "中",
+          "description": "银离子等抗菌剂可能引起过敏"
+        },
+        {
+          "type": "不透气",
+          "severity": "低",
+          "description": "纯尼龙不透气,贴身穿着易闷热"
+        }
+      ],
+      "health_benefits": [
+        "轻便耐磨",
+        "强度高",
+        "快干"
+      ],
+      "care_instructions": {
+        "washing": "可机洗,冷水",
+        "drying": "阴干,避免高温",
+        "ironing": "低温或不熨烫"
+      },
+      "certifications": [
+        "OEKO-TEX",
+        "bluesign"
+      ]
+    },
+    "source": "OEKO-TEX Standard 100",
+    "last_updated": "2026-01-30T17:27:21.113604",
+    "version": "1.0"
+  },
+  {
+    "material_id": "dc1fbf09720aaca5",
+    "category": "衣料纺织品",
+    "data": {
+      "fabric_type": "氨纶",
+      "composition": "弹性纤维(通常与其他纤维混纺)",
+      "chemical_treatments": [
+        {
+          "name": "异氰酸酯",
+          "hazard": "高"
+        },
+        {
+          "name": "溶剂残留",
+          "hazard": "中"
+        }
+      ],
+      "health_risks": [
+        {
+          "type": "异氰酸酯",
+          "severity": "高",
+          "description": "生产过程使用异氰酸酯,残留可能致敏"
+        },
+        {
+          "type": "溶剂残留",
+          "severity": "中",
+          "description": "DMF等溶剂残留有毒"
+        },
+        {
+          "type": "过敏",
+          "severity": "中",
+          "description": "对弹性纤维过敏者慎用"
+        }
+      ],
+      "health_benefits": [
+        "弹性极佳",
+        "贴身舒适",
+        "增强耐用性"
+      ],
+      "care_instructions": {
+        "washing": "可机洗,冷水",
+        "drying": "阴干,避免阳光和高温",
+        "ironing": "不熨烫"
+      },
+      "certifications": [
+        "OEKO-TEX"
+      ]
+    },
+    "source": "OEKO-TEX Standard 100",
+    "last_updated": "2026-01-30T17:27:21.113604",
+    "version": "1.0"
+  },
+  {
+    "material_id": "dc1fbf09720aaca5",
+    "category": "衣料纺织品",
+    "data": {
+      "fabric_type": "粘胶纤维",
+      "composition": "再生纤维素纤维(人造纤维)",
+      "chemical_treatments": [
+        {
+          "name": "二硫化碳",
+          "hazard": "高"
+        },
+        {
+          "name": "氢氧化钠",
+          "hazard": "中"
+        }
+      ],
+      "health_risks": [
+        {
+          "type": "生产污染",
+          "severity": "高",
+          "description": "传统粘胶生产使用二硫化碳,环境污染大"
+        },
+        {
+          "type": "化学残留",
+          "severity": "中",
+          "description": "劣质粘胶可能有碱液残留"
+        },
+        {
+          "type": "易皱缩水",
+          "severity": "低",
+          "description": "湿强度低,易变形"
+        }
+      ],
+      "health_benefits": [
+        "柔软舒适",
+        "吸湿透气",
+        "不起静电"
+      ],
+      "care_instructions": {
+        "washing": "手洗或干洗",
+        "drying": "平铺晾干",
+        "ironing": "中温熨烫"
+      },
+      "certifications": [
+        "OEKO-TEX",
+        "FSC(天丝)",
+        "PEFC"
+      ]
+    },
+    "source": "OEKO-TEX Standard 100",
+    "last_updated": "2026-01-30T17:27:21.113604",
+    "version": "1.0"
+  }
+]

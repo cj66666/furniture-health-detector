@@ -1,0 +1,27 @@
+<!--pages/posture-analyze/analyze.wxml-->
+<view class="container">
+  <view class="page-header">
+    <text class="page-title">坐姿分析</text>
+    <text class="page-desc">实时检测坐姿，提供健康建议</text>
+  </view>
+
+  <!-- 拍照区域 -->
+  <view class="camera-section">
+    <view class="camera-placeholder">
+      <image class="placeholder-icon" src="/images/icon-posture.png" mode="aspectFit"></image>
+      <text class="placeholder-text">请拍摄您的坐姿照片</text>
+    </view>
+  </view>
+
+  <!-- 功能按钮 -->
+  <view class="action-buttons">
+    <button class="btn btn-primary" bindtap="takePhoto">开始拍摄</button>
+    <button class="btn btn-secondary" bindtap="chooseImage">从相册选择</button>
+  </view>
+
+  <!-- 分析结果区域（初始隐藏） -->
+  <view class="result-section" wx:if="{{hasResult}}">
+    <text class="result-title">分析结果</text>
+    <!-- 结果内容将在后续实现 -->
+  </view>
+</view>

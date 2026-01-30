@@ -1,0 +1,35 @@
+<!--pages/share-card/share.wxml-->
+<view class="container">
+  <view class="page-header">
+    <text class="page-title">分享卡片</text>
+    <text class="page-desc">生成精美卡片，分享健康成果</text>
+  </view>
+
+  <!-- 卡片预览区域 -->
+  <view class="card-preview">
+    <view class="share-card">
+      <view class="card-header">
+        <image class="card-logo" src="/images/logo-chair.png" mode="aspectFit"></image>
+        <text class="card-app-name">家具安全健康小助手</text>
+      </view>
+
+      <view class="card-content">
+        <text class="card-title">我的坐姿健康报告</text>
+        <view class="stats-area">
+          <!-- 统计数据将在后续实现 -->
+          <text class="stats-placeholder">数据统计区域</text>
+        </view>
+      </view>
+
+      <view class="card-footer">
+        <text class="footer-text">扫码体验家具安全健康分析</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 操作按钮 -->
+  <view class="action-buttons">
+    <button class="btn btn-primary" bindtap="saveCard">保存到相册</button>
+    <button class="btn btn-secondary" bindtap="shareCard">分享给好友</button>
+  </view>
+</view>
