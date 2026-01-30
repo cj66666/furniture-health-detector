@@ -127,6 +127,7 @@ async def detect_furniture(
                 'risk_level': '中风险',
                 'risk_score': 50,
                 'harmful_substances': ['未知'],
+                'sensitive_groups': ['婴幼儿', '孕妇', '呼吸道敏感人群'],
                 'health_impacts': ['建议咨询专业人士'],
                 'recommendations': ['定期通风', '保持室内空气流通']
             }
@@ -136,6 +137,7 @@ async def detect_furniture(
             risk_level=RiskLevel(risk_data['risk_level']),
             risk_score=risk_data['risk_score'],
             harmful_substances=risk_data.get('harmful_substances', []),
+            sensitive_groups=risk_data.get('sensitive_groups', []),
             health_impacts=risk_data.get('health_impacts', []),
             recommendations=risk_data.get('recommendations', [])
         )

@@ -51,6 +51,10 @@ class RiskAssessment(BaseModel):
         default_factory=list,
         description="可能含有的有害物质列表"
     )
+    sensitive_groups: List[str] = Field(
+        default_factory=list,
+        description="对特定人群的影响/易感人群"
+    )
     health_impacts: List[str] = Field(
         default_factory=list,
         description="健康影响列表"

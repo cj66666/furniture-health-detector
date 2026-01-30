@@ -5,40 +5,141 @@
       "material_type": "实木类",
       "sub_type": "实木拼板",
       "description": "用窄木条横向胶拼后，上下两面压制硬木刨切薄木单板",
-      "visual_cues": {"texture": "自然木纹，纹理整齐", "color": "木材原色，色泽统一", "pattern": "表面纹理整体感好"},
-      "risk_assessment": {"risk_level": "低风险", "risk_score": 20, "harmful_substances": ["少量胶水中的甲醛"], "health_impacts": [], "recommendations": ["适合高端家具", "适合儿童房、孕妇房使用"]}
+      "visual_cues": {
+        "texture": "自然木纹，纹理整齐",
+        "color": "木材原色，色泽统一",
+        "pattern": "表面纹理整体感好"
+      },
+      "risk_assessment": {
+        "risk_level": "低风险",
+        "risk_score": 20,
+        "harmful_substances": [
+          "少量胶水中的甲醛"
+        ],
+        "health_impacts": [],
+        "recommendations": [
+          "适合高端家具",
+          "适合儿童房、孕妇房使用"
+        ],
+        "sensitive_groups": [
+          "???",
+          "??"
+        ]
+      }
     },
     {
       "id": "mdf",
       "material_type": "人造板类",
       "sub_type": "密度板",
       "description": "以木质纤维为原料，施加脲醛树脂制成",
-      "visual_cues": {"texture": "表面极其平整光滑", "color": "均匀一致", "pattern": "无明显纹理，切面呈粉末状"},
-      "risk_assessment": {"risk_level": "中高风险", "risk_score": 70, "harmful_substances": ["甲醛", "脲醛树脂"], "health_impacts": ["用胶量大，甲醛风险高"], "recommendations": ["必须查看环保检测报告", "避免用于儿童房", "确保六面封边良好"]}
+      "visual_cues": {
+        "texture": "表面极其平整光滑",
+        "color": "均匀一致",
+        "pattern": "无明显纹理，切面呈粉末状"
+      },
+      "risk_assessment": {
+        "risk_level": "中高风险",
+        "risk_score": 70,
+        "harmful_substances": [
+          "甲醛",
+          "脲醛树脂"
+        ],
+        "health_impacts": [
+          "用胶量大，甲醛风险高"
+        ],
+        "recommendations": [
+          "必须查看环保检测报告",
+          "避免用于儿童房",
+          "确保六面封边良好"
+        ],
+        "sensitive_groups": [
+          "???",
+          "??"
+        ]
+      }
     },
     {
       "id": "particleboard",
       "material_type": "人造板类",
       "sub_type": "刨花板",
       "description": "木材碎料渗加胶水、添加剂经压制而成",
-      "visual_cues": {"texture": "侧面有颗粒感", "color": "根据饰面而定", "pattern": "边缘粗糙，封边处有黑线"},
-      "risk_assessment": {"risk_level": "中风险", "risk_score": 60, "harmful_substances": ["甲醛"], "health_impacts": ["封边不严容易释放甲醛"], "recommendations": ["查看ENF级证书", "确保封边良好"]}
+      "visual_cues": {
+        "texture": "侧面有颗粒感",
+        "color": "根据饰面而定",
+        "pattern": "边缘粗糙，封边处有黑线"
+      },
+      "risk_assessment": {
+        "risk_level": "中风险",
+        "risk_score": 60,
+        "harmful_substances": [
+          "甲醛"
+        ],
+        "health_impacts": [
+          "封边不严容易释放甲醛"
+        ],
+        "recommendations": [
+          "查看ENF级证书",
+          "确保封边良好"
+        ],
+        "sensitive_groups": [
+          "???",
+          "??"
+        ]
+      }
     },
     {
       "id": "leather",
       "material_type": "皮革类",
       "sub_type": "真皮",
       "description": "动物皮革经过鞣制加工而成",
-      "visual_cues": {"texture": "自然纹理，触感柔软", "color": "多样，有光泽", "pattern": "天然毛孔和纹路"},
-      "risk_assessment": {"risk_level": "低风险", "risk_score": 30, "harmful_substances": ["鞣制剂残留（少量）"], "health_impacts": [], "recommendations": ["选择正规品牌", "定期清洁保养"]}
+      "visual_cues": {
+        "texture": "自然纹理，触感柔软",
+        "color": "多样，有光泽",
+        "pattern": "天然毛孔和纹路"
+      },
+      "risk_assessment": {
+        "risk_level": "低风险",
+        "risk_score": 30,
+        "harmful_substances": [
+          "鞣制剂残留（少量）"
+        ],
+        "health_impacts": [],
+        "recommendations": [
+          "选择正规品牌",
+          "定期清洁保养"
+        ],
+        "sensitive_groups": [
+          "???",
+          "??"
+        ]
+      }
     },
     {
       "id": "fabric",
       "material_type": "布类",
       "sub_type": "布艺面料",
       "description": "纺织面料，包括棉、麻、化纤等",
-      "visual_cues": {"texture": "柔软，有编织纹理", "color": "多样", "pattern": "编织图案可见"},
-      "risk_assessment": {"risk_level": "低风险", "risk_score": 25, "harmful_substances": ["染料残留（少量）"], "health_impacts": [], "recommendations": ["选择环保染料产品", "新品使用前清洗"]}
+      "visual_cues": {
+        "texture": "柔软，有编织纹理",
+        "color": "多样",
+        "pattern": "编织图案可见"
+      },
+      "risk_assessment": {
+        "risk_level": "低风险",
+        "risk_score": 25,
+        "harmful_substances": [
+          "染料残留（少量）"
+        ],
+        "health_impacts": [],
+        "recommendations": [
+          "选择环保染料产品",
+          "新品使用前清洗"
+        ],
+        "sensitive_groups": [
+          "???",
+          "??"
+        ]
+      }
     }
   ]
 }

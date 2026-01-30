@@ -136,7 +136,8 @@ class KnowledgeBaseService:
         risk = material.get('risk_assessment', {})
         required_risk_fields = [
             'risk_level', 'risk_score',
-            'harmful_substances', 'health_impacts', 'recommendations'
+            'harmful_substances', 'sensitive_groups',
+            'health_impacts', 'recommendations'
         ]
         if not all(k in risk for k in required_risk_fields):
             logger.error("risk_assessment 缺少必需字段")
